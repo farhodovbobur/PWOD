@@ -18,7 +18,6 @@ class Daily
 
     public function Debt()
     {
-
         $workTime = strtotime('09:00');
 
         if (date('H:i', $this->workDuration) >= date('H:i', $workTime)) {
